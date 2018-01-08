@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1686744245187874}
+  m_IsPrefabParent: 1
+--- !u!1 &1686744245187874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4424323009448796}
+  - component: {fileID: 212820530406424128}
+  - component: {fileID: 50057874740931680}
+  - component: {fileID: 114897338242569064}
+  - component: {fileID: 60356133047024152}
+  m_Layer: 8
+  m_Name: Guitar
+  m_TagString: Asteroid
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4424323009448796
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686744245187874}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50057874740931680
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686744245187874}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 6200000, guid: c37815220d9c016498faf5eff09d0992, type: 2}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!60 &60356133047024152
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686744245187874}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: c37815220d9c016498faf5eff09d0992, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1.28, y: 2.56}
+    newSize: {x: 0.2, y: 0.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.11734932, y: 1.2436471}
+      - {x: -0.17149651, y: 1.190553}
+      - {x: -0.17201133, y: 0.9238235}
+      - {x: -0.13331215, y: 0.8861818}
+      - {x: -0.13610269, y: 0.0039933585}
+      - {x: -0.22334892, y: -0.015005548}
+      - {x: -0.31817582, y: -0.066736065}
+      - {x: -0.35580617, y: -0.14365463}
+      - {x: -0.36994523, y: -0.19984801}
+      - {x: -0.3052928, y: -0.41798773}
+      - {x: -0.31381947, y: -0.46113282}
+      - {x: -0.372457, y: -0.56146574}
+      - {x: -0.44574153, y: -0.6833832}
+      - {x: -0.4754713, y: -0.75220263}
+      - {x: -0.47781995, y: -0.9457907}
+      - {x: -0.45562047, y: -1.0031826}
+      - {x: -0.41548368, y: -1.0560435}
+      - {x: -0.3211522, y: -1.1520287}
+      - {x: -0.23631553, y: -1.1984837}
+      - {x: -0.15734673, y: -1.2217064}
+      - {x: -0.13408375, y: -1.2220284}
+      - {x: -0.13298225, y: -1.2726665}
+      - {x: 0.021830559, y: -1.2727588}
+      - {x: 0.022843236, y: -1.2335877}
+      - {x: 0.12078142, y: -1.2343765}
+      - {x: 0.2006216, y: -1.2157255}
+      - {x: 0.33932924, y: -1.1416156}
+      - {x: 0.3812437, y: -1.1046156}
+      - {x: 0.400033, y: -1.0915033}
+      - {x: 0.42484713, y: -1.068454}
+      - {x: 0.47529888, y: -0.9697112}
+      - {x: 0.4920931, y: -0.86860645}
+      - {x: 0.49179316, y: -0.80957747}
+      - {x: 0.46670055, y: -0.71294475}
+      - {x: 0.39668083, y: -0.60868645}
+      - {x: 0.3297906, y: -0.5219705}
+      - {x: 0.30256033, y: -0.48518968}
+      - {x: 0.27361917, y: -0.43444157}
+      - {x: 0.2728734, y: -0.36902022}
+      - {x: 0.31327868, y: -0.24734187}
+      - {x: 0.3127489, y: -0.19142866}
+      - {x: 0.29861403, y: -0.16191196}
+      - {x: 0.27656507, y: -0.14598036}
+      - {x: 0.24396753, y: -0.14261842}
+      - {x: 0.20223284, y: -0.16178417}
+      - {x: 0.1430645, y: -0.17433047}
+      - {x: 0.09174919, y: -0.15271187}
+      - {x: 0.07170963, y: -0.119660854}
+      - {x: 0.046239853, y: -0.094087124}
+      - {x: 0.035243034, y: -0.06626868}
+      - {x: 0.020293834, y: -0.018136194}
+      - {x: 0.022050016, y: 0.8856576}
+      - {x: 0.061492976, y: 0.9195438}
+      - {x: 0.059780218, y: 1.1905454}
+      - {x: 0.0061800107, y: 1.2416695}
+--- !u!114 &114897338242569064
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686744245187874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 063975ff35d8a174c966a3379958f24a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  asteroid: {fileID: 1686744245187874}
+  audioKick: {fileID: 0}
+  audioSource: {fileID: 0}
+  level: 0
+--- !u!212 &212820530406424128
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1686744245187874}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: -2
+  m_Sprite: {fileID: 21300000, guid: 20604eadd8575a2479930177a1a6df6c, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.2, y: 0.2}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
